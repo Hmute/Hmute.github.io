@@ -1,0 +1,46 @@
+{
+  "name": "student-management-app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Hmute.github.io/Hmute.github.io/",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mssql": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.1",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.2.3"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
